@@ -1,0 +1,209 @@
+Read 'Monmouth University' from string.txt file.
+Read 'West Long Branch' from string.txt file.
+Read 'February' from string.txt file.
+Read 'Cloud Computing' from string.txt file.
+Read 'Data Structures' from string.txt file.
+Read 'MacBook' from string.txt file.
+Read 'Spacex' from string.txt file.
+Read 'The Lord of the Rings,HARDBACK,120,29.99' from book.txt file.
+HARDBACK
+Read 'Data Structures and Algorithms,SOFTBACK,426,79.99' from book.txt file.
+SOFTBACK
+Read 'The Hobbit,HARDBACK,212,32.50' from book.txt file.
+HARDBACK
+Read 'Harry Potter and the Goblet of Fire,ELECTRONIC,-9,19.99' from book.txt file.
+ELECTRONIC
+FAILED TO CREATE.
+edu.monmouth.book.BookException: Pages can NOT be less than 1.
+	at edu.monmouth.book.Book.setnumberOfPages(Book.java:28)
+	at edu.monmouth.book.Book.<init>(Book.java:13)
+	at edu.monmouth.hw3.HW3.main(HW3.java:96)
+Read 'The Da Vinci Code,HARDBACK,253,25.00' from book.txt file.
+HARDBACK
+Read 'And Then There Were None,SOFTBACK,156,19.99' from book.txt file.
+SOFTBACK
+Read 'Harry Potter and the Prisoner of Azkaban,HARDBACK,546,-99.00' from book.txt file.
+HARDBACK
+FAILED TO CREATE.
+edu.monmouth.book.BookException: Price can NOT be a negative.
+	at edu.monmouth.book.Book.setPrice(Book.java:74)
+	at edu.monmouth.book.Book.<init>(Book.java:16)
+	at edu.monmouth.hw3.HW3.main(HW3.java:96)
+Read 'Harry Potter and the Half-Blood Prince,ELECTRONIC,439,19.99' from book.txt file.
+ELECTRONIC
+Read 'And Then There Were None,HARDBACK,156,39.99' from book.txt file.
+HARDBACK
+Read 'Opus 200,HARDBACK,320,40.99' from book.txt file.
+HARDBACK
+Read 'The Soloman Curse,HARDBACK,829,23.95' from book.txt file.
+HARDBACK
+Read ',HARDBACK,92,22.99' from book.txt file.
+HARDBACK
+FAILED TO CREATE.
+edu.monmouth.book.BookException: Book title can NOT be empty.
+	at edu.monmouth.book.Book.setTitle(Book.java:46)
+	at edu.monmouth.book.Book.<init>(Book.java:15)
+	at edu.monmouth.hw3.HW3.main(HW3.java:96)
+Read 'American Sniper,HARDBACK,320,16.20' from book.txt file.
+HARDBACK
+Read 'The Girl on the Train,SOFTBACK,391,23.87' from book.txt file.
+SOFTBACK
+Read 'Citizen Soldier,HARDBACK,231,54.99' from book.txt file.
+HARDBACK
+Empty string:
+false
+Empty book:
+false
+
+
+Remove 1 string (using index) :
+West Long Branch
+Remove 1 book (using index) :
+Book [price = 79.99, bookType = SOFTBACK, numberOfPages = 426, title = Data Structures and Algorithms]
+
+
+Size of string:
+6
+Size of book:
+11
+
+
+Monmouth University
+February
+Cloud Computing
+Data Structures
+MacBook
+Spacex
+
+
+Book [price = 29.99, bookType = HARDBACK, numberOfPages = 120, title = The Lord of the Rings]
+Book [price = 32.5, bookType = HARDBACK, numberOfPages = 212, title = The Hobbit]
+Book [price = 25.0, bookType = HARDBACK, numberOfPages = 253, title = The Da Vinci Code]
+Book [price = 19.99, bookType = SOFTBACK, numberOfPages = 156, title = And Then There Were None]
+Book [price = 19.99, bookType = ELECTRONIC, numberOfPages = 439, title = Harry Potter and the Half-Blood Prince]
+Book [price = 39.99, bookType = HARDBACK, numberOfPages = 156, title = And Then There Were None]
+Book [price = 40.99, bookType = HARDBACK, numberOfPages = 320, title = Opus 200]
+Book [price = 23.95, bookType = HARDBACK, numberOfPages = 829, title = The Soloman Curse]
+Book [price = 16.2, bookType = HARDBACK, numberOfPages = 320, title = American Sniper]
+Book [price = 23.87, bookType = SOFTBACK, numberOfPages = 391, title = The Girl on the Train]
+Book [price = 54.99, bookType = HARDBACK, numberOfPages = 231, title = Citizen Soldier]
+
+
+Print values in order
+Monmouth University
+February
+Cloud Computing
+Data Structures
+MacBook
+Spacex
+Print values in order
+Monmouth University
+February
+Cloud Computing
+Data Structures
+MacBook
+Spacex
+Using ListIterator on stringArrayList in reverse order):
+Spacex
+MacBook
+Data Structures
+Cloud Computing
+February
+Monmouth University
+
+
+Print values in order
+Book [price = 29.99, bookType = HARDBACK, numberOfPages = 120, title = The Lord of the Rings]
+Book [price = 32.5, bookType = HARDBACK, numberOfPages = 212, title = The Hobbit]
+Book [price = 25.0, bookType = HARDBACK, numberOfPages = 253, title = The Da Vinci Code]
+Book [price = 19.99, bookType = SOFTBACK, numberOfPages = 156, title = And Then There Were None]
+Book [price = 19.99, bookType = ELECTRONIC, numberOfPages = 439, title = Harry Potter and the Half-Blood Prince]
+Book [price = 39.99, bookType = HARDBACK, numberOfPages = 156, title = And Then There Were None]
+Book [price = 40.99, bookType = HARDBACK, numberOfPages = 320, title = Opus 200]
+Book [price = 23.95, bookType = HARDBACK, numberOfPages = 829, title = The Soloman Curse]
+Book [price = 16.2, bookType = HARDBACK, numberOfPages = 320, title = American Sniper]
+Book [price = 23.87, bookType = SOFTBACK, numberOfPages = 391, title = The Girl on the Train]
+Book [price = 54.99, bookType = HARDBACK, numberOfPages = 231, title = Citizen Soldier]
+Using ListIterator on bookArrayList in reverse order:
+Book [price = 54.99, bookType = HARDBACK, numberOfPages = 231, title = Citizen Soldier]
+Book [price = 23.87, bookType = SOFTBACK, numberOfPages = 391, title = The Girl on the Train]
+Book [price = 16.2, bookType = HARDBACK, numberOfPages = 320, title = American Sniper]
+Book [price = 23.95, bookType = HARDBACK, numberOfPages = 829, title = The Soloman Curse]
+Book [price = 40.99, bookType = HARDBACK, numberOfPages = 320, title = Opus 200]
+Book [price = 39.99, bookType = HARDBACK, numberOfPages = 156, title = And Then There Were None]
+Book [price = 19.99, bookType = ELECTRONIC, numberOfPages = 439, title = Harry Potter and the Half-Blood Prince]
+Book [price = 19.99, bookType = SOFTBACK, numberOfPages = 156, title = And Then There Were None]
+Book [price = 25.0, bookType = HARDBACK, numberOfPages = 253, title = The Da Vinci Code]
+Book [price = 32.5, bookType = HARDBACK, numberOfPages = 212, title = The Hobbit]
+Book [price = 29.99, bookType = HARDBACK, numberOfPages = 120, title = The Lord of the Rings]
+
+
+Print values in order
+Monmouth University
+West Long Branch
+February
+Cloud Computing
+Data Structures
+MacBook
+Spacex
+Using ListIterator on stringLinkedList in reverse order:
+Spacex
+MacBook
+Data Structures
+Cloud Computing
+February
+West Long Branch
+Monmouth University
+
+
+Print values in order
+Book [price = 29.99, bookType = HARDBACK, numberOfPages = 120, title = The Lord of the Rings]
+Book [price = 32.5, bookType = HARDBACK, numberOfPages = 212, title = The Hobbit]
+Book [price = 25.0, bookType = HARDBACK, numberOfPages = 253, title = The Da Vinci Code]
+Book [price = 19.99, bookType = SOFTBACK, numberOfPages = 156, title = And Then There Were None]
+Book [price = 19.99, bookType = ELECTRONIC, numberOfPages = 439, title = Harry Potter and the Half-Blood Prince]
+Book [price = 39.99, bookType = HARDBACK, numberOfPages = 156, title = And Then There Were None]
+Book [price = 40.99, bookType = HARDBACK, numberOfPages = 320, title = Opus 200]
+Book [price = 23.95, bookType = HARDBACK, numberOfPages = 829, title = The Soloman Curse]
+Book [price = 16.2, bookType = HARDBACK, numberOfPages = 320, title = American Sniper]
+Book [price = 23.87, bookType = SOFTBACK, numberOfPages = 391, title = The Girl on the Train]
+Book [price = 54.99, bookType = HARDBACK, numberOfPages = 231, title = Citizen Soldier]
+Using ListIterator on bookLinkedList in reverse order:
+Book [price = 54.99, bookType = HARDBACK, numberOfPages = 231, title = Citizen Soldier]
+Book [price = 23.87, bookType = SOFTBACK, numberOfPages = 391, title = The Girl on the Train]
+Book [price = 16.2, bookType = HARDBACK, numberOfPages = 320, title = American Sniper]
+Book [price = 23.95, bookType = HARDBACK, numberOfPages = 829, title = The Soloman Curse]
+Book [price = 40.99, bookType = HARDBACK, numberOfPages = 320, title = Opus 200]
+Book [price = 39.99, bookType = HARDBACK, numberOfPages = 156, title = And Then There Were None]
+Book [price = 19.99, bookType = ELECTRONIC, numberOfPages = 439, title = Harry Potter and the Half-Blood Prince]
+Book [price = 19.99, bookType = SOFTBACK, numberOfPages = 156, title = And Then There Were None]
+Book [price = 25.0, bookType = HARDBACK, numberOfPages = 253, title = The Da Vinci Code]
+Book [price = 32.5, bookType = HARDBACK, numberOfPages = 212, title = The Hobbit]
+Book [price = 29.99, bookType = HARDBACK, numberOfPages = 120, title = The Lord of the Rings]
+
+
+Using iterator on stringLinkedList:
+Monmouth University
+West Long Branch
+February
+Cloud Computing
+Data Structures
+MacBook
+Spacex
+
+
+Using iterator on bookLinkedList:
+Book [price = 29.99, bookType = HARDBACK, numberOfPages = 120, title = The Lord of the Rings]
+Book [price = 79.99, bookType = SOFTBACK, numberOfPages = 426, title = Data Structures and Algorithms]
+Book [price = 32.5, bookType = HARDBACK, numberOfPages = 212, title = The Hobbit]
+Book [price = 25.0, bookType = HARDBACK, numberOfPages = 253, title = The Da Vinci Code]
+Book [price = 19.99, bookType = SOFTBACK, numberOfPages = 156, title = And Then There Were None]
+Book [price = 19.99, bookType = ELECTRONIC, numberOfPages = 439, title = Harry Potter and the Half-Blood Prince]
+Book [price = 39.99, bookType = HARDBACK, numberOfPages = 156, title = And Then There Were None]
+Book [price = 40.99, bookType = HARDBACK, numberOfPages = 320, title = Opus 200]
+Book [price = 23.95, bookType = HARDBACK, numberOfPages = 829, title = The Soloman Curse]
+Book [price = 16.2, bookType = HARDBACK, numberOfPages = 320, title = American Sniper]
+Book [price = 23.87, bookType = SOFTBACK, numberOfPages = 391, title = The Girl on the Train]
+Book [price = 54.99, bookType = HARDBACK, numberOfPages = 231, title = Citizen Soldier]
+
+
